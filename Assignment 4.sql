@@ -1,7 +1,7 @@
 CREATE SCHEMA assign4;
 USE assign4;
 
-#Load the IBDM dataset in MYSQL, please ensure that PK/FK are mapped correctly
+#Load the IMDB dataset in MYSQL, please ensure that PK/FK are mapped correctly
 DROP TABLE IF EXISTS title_basics;
 DROP TABLE IF EXISTS title_akas;
 DROP TABLE IF EXISTS title_crew;
